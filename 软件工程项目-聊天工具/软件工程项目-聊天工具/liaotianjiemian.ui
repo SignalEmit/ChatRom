@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>liaotianjiemian</class>
+ <widget class="QWidget" name="liaotianjiemian">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>514</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>514</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>liaotianjiemian</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>昵    称：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Gexingqianming">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>70</y>
+     <width>301</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                         个性签名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fasongbt">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qingkongbt">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Nicheng">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>30</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="shuchu">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>581</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="shuru">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>581</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_DisPlay">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>个性签名：</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

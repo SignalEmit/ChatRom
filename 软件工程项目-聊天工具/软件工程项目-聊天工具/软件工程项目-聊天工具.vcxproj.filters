@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9269bc55-4bc2-4066-b997-cdc7a41ec0cb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{8d127d64-5d34-4dbe-a8f9-c2d7413441e3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="源代码">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="源代码\登录进入后的界面">
+      <UniqueIdentifier>{5524228f-2f16-41ba-8a39-612764113d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\登录进入后的界面\主界面">
+      <UniqueIdentifier>{5e204c65-dbc4-4e32-9244-e1e6c18ad113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\登录进入后的界面\添加朋友">
+      <UniqueIdentifier>{817973a9-faa0-4c83-8955-9cb6e0a67619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\登录进入后的界面\修改信息">
+      <UniqueIdentifier>{18516444-625b-454f-8097-2384e7c20809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\登录进入后的界面\聊天界面">
+      <UniqueIdentifier>{b42a8f8c-80ad-4f1b-be97-d0ac7c4162d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\界面">
+      <UniqueIdentifier>{d66089f9-25cc-41e1-9595-c27bc242b43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\界面\忘记密码">
+      <UniqueIdentifier>{a9d07b04-816c-4c66-ba0d-097d5a9f33ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\界面\注册">
+      <UniqueIdentifier>{e5b4091f-85b9-4105-9c4c-e5ba24f21f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源代码\界面\初始登录界面">
+      <UniqueIdentifier>{c13d9e76-054f-4580-932c-26683d70894c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_denglu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_denglu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_denglu.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dengluview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dengluview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="zhuce.cpp">
+      <Filter>源代码\界面\注册</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_zhuce.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_zhuce.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="wangjimima.cpp">
+      <Filter>源代码\界面\忘记密码</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wangjimima.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wangjimima.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="liaotianjiemian.cpp">
+      <Filter>源代码\登录进入后的界面\聊天界面</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_liaotianjiemian.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_liaotianjiemian.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="xiugaixingxi.cpp">
+      <Filter>源代码\登录进入后的界面\修改信息</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xiugaixingxi.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xiugaixingxi.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="tianjiafriend.cpp">
+      <Filter>源代码\登录进入后的界面\添加朋友</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tianjiafriend.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tianjiafriend.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dengluview.cpp">
+      <Filter>源代码\登录进入后的界面\主界面</Filter>
+    </ClCompile>
+    <ClCompile Include="denglu.cpp">
+      <Filter>源代码\界面\初始登录界面</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源代码\界面\初始登录界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="denglu.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="zhuce.h">
+      <Filter>源代码\界面\注册</Filter>
+    </CustomBuild>
+    <CustomBuild Include="zhuce.ui">
+      <Filter>源代码\界面\注册</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wangjimima.ui">
+      <Filter>源代码\界面\忘记密码</Filter>
+    </CustomBuild>
+    <CustomBuild Include="wangjimima.h">
+      <Filter>源代码\界面\忘记密码</Filter>
+    </CustomBuild>
+    <CustomBuild Include="liaotianjiemian.h">
+      <Filter>源代码\登录进入后的界面\聊天界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="liaotianjiemian.ui">
+      <Filter>源代码\登录进入后的界面\聊天界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xiugaixingxi.ui">
+      <Filter>源代码\登录进入后的界面\修改信息</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xiugaixingxi.h">
+      <Filter>源代码\登录进入后的界面\修改信息</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tianjiafriend.h">
+      <Filter>源代码\登录进入后的界面\添加朋友</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tianjiafriend.ui">
+      <Filter>源代码\登录进入后的界面\添加朋友</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dengluview.h">
+      <Filter>源代码\登录进入后的界面\主界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dengluview.ui">
+      <Filter>源代码\登录进入后的界面\主界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="denglu.h">
+      <Filter>源代码\界面\初始登录界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="denglu.ui">
+      <Filter>源代码\界面\初始登录界面</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_denglu.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dengluview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_zhuce.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wangjimima.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_liaotianjiemian.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_xiugaixingxi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tianjiafriend.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

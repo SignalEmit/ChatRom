@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dengluview</class>
+ <widget class="QWidget" name="dengluview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>297</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>297</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>297</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>dengluview</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>昵  称：</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>21</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>120</y>
+     <width>31</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>261</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Triangular</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideNone</enum>
+   </property>
+   <property name="usesScrollButtons">
+    <bool>false</bool>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="xiaoxi">
+    <attribute name="title">
+     <string>消息</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="lianxiren_tab">
+    <attribute name="title">
+     <string>联系人</string>
+    </attribute>
+    <widget class="QToolBox" name="lianxirenfenzu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>261</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="fenzu1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>261</width>
+        <height>293</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>分组一</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="fenzu2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>98</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>分组二</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="fenzu3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>98</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>分组三</string>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Shengqing_tab">
+    <attribute name="title">
+     <string>申请列表</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>个性签名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dengluview_qianming">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dengluview_nicheng">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>32</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tianjia">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/denglu/C:/Users/M/Desktop/tianjia.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="touxiangbt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/denglu/C:/Users/M/Desktop/anniu.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Touxiang">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>75</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="denglu.qrc"/>
+ </resources>
+ <connections/>
+</ui>
